@@ -1,4 +1,4 @@
-local gpu = component.proxy(component.list("")())
+local gpu = component.proxy(component.list("gpu")())
 local resX, resY = gpu.getResolution()
 
 gpu.setBackground(0x000000)
